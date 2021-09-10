@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.button-wrapper {
+  text-align: center;
+}
+
+.grid {
+  width: 200px;
+  height: 420px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: yellow;
+}
+
+.mini-grid {
+  margin-left: 50px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: yellow;
+}
+
+.mini-grid div {
+  height: 20px;
+  width: 20px;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+#taken {
+  background-color: black;
+}
+
+.tetromino {
+  background-color: blue;
+}
